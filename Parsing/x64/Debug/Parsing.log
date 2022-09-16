@@ -1,0 +1,6 @@
+﻿  Exercise5_14.9.c
+C:\Users\97252\source\repos\Parsing\Parsing\Exercise5_14.9.c(131,28): warning C4020: 'strtok': too many actual parameters
+C:\Users\97252\source\repos\Parsing\Parsing\Exercise5_14.9.c(318,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\97252\source\repos\Parsing\Parsing\Exercise5_14.9.c(377,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\97252\source\repos\Parsing\Parsing\Exercise5_14.9.c(361,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Parsing.vcxproj -> C:\Users\97252\source\repos\Parsing\x64\Debug\Parsing.exe
