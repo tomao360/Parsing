@@ -327,7 +327,7 @@ void Save(char filename[100])
 {
 	struct OscarActor* currentActor = Head;
 
-	FILE* f = fopen(filename, "w");
+	FILE* f = fopen(filename, "wb");
 	if (f == NULL)
 	{
 		printf("Error opening the file");
@@ -350,7 +350,7 @@ void Save(char filename[100])
 //A function that reads the linked list from a file
 void Load(char filename[100])
 {
-	FILE* f = fopen(filename, "r");
+	FILE* f = fopen(filename, "rb");
 	if (f == NULL)
 	{
 		printf("Error opening the file");
